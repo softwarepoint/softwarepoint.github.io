@@ -1,11 +1,11 @@
 /*
  * jQuery One Page Nav Plugin
- * http://github.com/davist11/jQuery-One-Page-Nav
+ * https://github.com/davist11/jQuery-One-Page-Nav
  *
- * Copyright (c) 2010 Trevor Davis (http://trevordavis.net)
+ * Copyright (c) 2010 Trevor Davis (https://trevordavis.net)
  * Dual licensed under the MIT and GPL licenses.
  * Uses the same license as jQuery, see:
- * http://jquery.org/license
+ * https://jquery.org/license
  *
  * @version 3.0.0
  *
@@ -40,7 +40,7 @@
             changeHash: false,
             easing: 'swing',
             filter: '',
-			navHeight: 70,
+            navHeight: 70,
             scrollSpeed: 750,
             scrollThreshold: 0.5,
             begin: false,
@@ -135,7 +135,7 @@
             for (var section in this.sections) {
                 if ((this.sections[section] - windowHeight) < windowPos) {
                     returnValue = section;
-										
+
                 }
             }
 
@@ -166,7 +166,7 @@
                     if (self.config.changeHash) {
                         window.location.hash = newLoc;
                     }
-//				$('#aboutUs').offset({'top':'60'});
+                    //				$('#aboutUs').offset({'top':'60'});
                     //Add the auto-adjust on scroll back in
                     self.bindInterval();
 
